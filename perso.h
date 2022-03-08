@@ -6,7 +6,7 @@
 #include "SDL/SDL.h"
 #include "SDL/SDL_image.h"
 #include "SDL/SDL_ttf.h"
-
+#include <time.h>
 typedef struct 
 {
 	int id;
