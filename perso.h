@@ -3,11 +3,8 @@
 #include <stdbool.h>
 #include <string.h>
 #include <math.h>
-#include <time.h>
 #include "SDL/SDL.h"
 #include "SDL/SDL_image.h"
-#include "SDL/SDL_rotozoom.h"
-//#include "SDL/SDL_mixer.h"
 #include "SDL/SDL_ttf.h"
 
 typedef struct 
@@ -23,7 +20,6 @@ typedef struct
 	SDL_Surface* rightImage[4];
 	SDL_Surface* leftImage[4];
 	SDL_Surface* battleImage;
-	Spell spellList[4];
 }personnage;
 void initPerso(Personne *p);
 void afficherPerso(Personne p, SDL_Surface * screen);
