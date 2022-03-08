@@ -20,7 +20,7 @@ typedef struct
 	SDL_Surface* rightImage[4];
 	SDL_Surface* leftImage[4];
 	SDL_Surface* battleImage;
-}personnage;
+}personne;
 void initPerso(Personne *p);
 void afficherPerso(Personne p, SDL_Surface * screen);
 void deplacerPerso (Personne *p, , int dt);
